@@ -1,0 +1,123 @@
+[
+  {
+    "description": "        Test to validate hello world website",
+    "keyword": "Feature",
+    "name": "Hello world website",
+    "line": 5,
+    "id": "hello-world-website",
+    "tags": [
+      {
+        "name": "@Project:Hello-World",
+        "line": 1
+      },
+      {
+        "name": "@Type:web",
+        "line": 1
+      },
+      {
+        "name": "@helloworld",
+        "line": 2
+      },
+      {
+        "name": "@acceptance",
+        "line": 2
+      },
+      {
+        "name": "@pro",
+        "line": 3
+      }
+    ],
+    "uri": "e2e/features/ui.helloWorld.PRO.feature",
+    "elements": [
+      {
+        "id": "hello-world-website;verify-website-title",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Verify website title",
+        "tags": [
+          {
+            "name": "@Project:Hello-World",
+            "line": 1
+          },
+          {
+            "name": "@Type:web",
+            "line": 1
+          },
+          {
+            "name": "@helloworld",
+            "line": 2
+          },
+          {
+            "name": "@acceptance",
+            "line": 2
+          },
+          {
+            "name": "@pro",
+            "line": 3
+          },
+          {
+            "name": "@Priority-P1",
+            "line": 8
+          },
+          {
+            "name": "@id:helloworld_001",
+            "line": 8
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I have navigated to url <https://angularjs-internal-cicd-pipeline-uk-reference-pro.appls.cap1.paas.gsnetcloud.corp/helloworld-angularjs-npm-server/>",
+            "match": {
+              "location": "e2e/features/step_definitions/ui.steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 983000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "title is displayed",
+            "match": {
+              "location": "e2e/features/step_definitions/ui.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 207000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "title text contains <Hello, AngularJS>",
+            "match": {
+              "location": "e2e/features/step_definitions/ui.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
