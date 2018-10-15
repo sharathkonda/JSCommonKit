@@ -1,0 +1,32 @@
+{
+  "name": "jsdemo",
+  "version": "0.0.01",
+  "description": "nitrojswebkit",
+  "author": "jsdemo",
+  "license": "MIT",
+  "scripts": {
+    "test": "protractor protractor.conf.js --cucumberOpts.tags='not (@ignore or @obsolete) and @pro'"
+  },
+
+  "bundleDependencies": false,
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "chai": "^4.2.0",
+    "cucumber": "^4.2.1",
+    "cucumber-html-reporter": "^4.0.4",
+    "cucumber-pretty": "^1.4.4",
+    "eslint": "^5.6.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-protractor": "^1.41.0",
+    "moment": "^2.22.2",
+    "protractor": "^5.4.1",
+    "protractor-cucumber-framework": "^6.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://uk-gitlab.almuk.santanderuk.corp/pipeline-uk/TaaS/JSDemo.git"
+  }
+}
