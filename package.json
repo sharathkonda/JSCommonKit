@@ -1,7 +1,7 @@
 {
-  "name": "jsdemo",
+  "name": "jscommonkit",
   "version": "0.0.01",
-  "description": "nitrojswebkit",
+  "description": "jscommonkit",
   "author": "jsdemo",
   "license": "MIT",
   "scripts": {
@@ -27,6 +27,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://uk-gitlab.almuk.santanderuk.corp/pipeline-uk/TaaS/JSDemo.git"
+    "url": "https://github.com/sharathkonda/JSCommonKit.git"
   }
 }
